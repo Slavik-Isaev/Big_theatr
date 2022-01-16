@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;700&display=swap');
+
+
+* {
+    font-family: "Open Sans Condensed";
+    letter-spacing: 1px;
+
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 0 0 15px;
+}
+
+.header {
+    background-image: url(/img/Rectangle\ 3.png);
+    position: relative;
+    width: 1920px;
+    height: 1045px;
+}
+
+
+.left-info {
+    width: 150px;
+    height: 1045px;
+    background: rgba(51, 51, 51, 0.75);
+    position: absolute;
+}
+.info-text {
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: 550px;
+    left: -125px;
+    width: 400px;
+    font-size: 30px;
+    font-weight: 700;
+    list-style: none;
+    word-wrap: normal;
+    color: white;
+}
+.info-line {
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background-color: white;
+    left: 75px;
+    bottom: 300px;
+}
+.info-icon {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    left: 47px;
+    bottom: 60px;
+}
+.info-icon div {
+    margin: 15px;display: flex;
+    justify-content: center;
+}
+
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 63px 0 0;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.nav {
+    position: absolute;
+    display: block;
+    flex-direction: row;
+    left: 405px;
+    top: 53px;
+}
+
+.tell-button {
+    background-color: transparent;
+    border-color: transparent;
+}
+.tell a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+}
+.tell {
+    position: absolute;
+    top: 50px;
+    right: 405px;
+}
+.tell-line {
+    background-color: #D1A954;
+    position: absolute;
+    width: 94px;
+    height: 2px;
+}
+
+
+.content {
+    position: absolute;
+    top: 267px;
+    right: 480px;
+    /* background-color: rgba(51, 51, 51, 0.75); ybrat */
+    width: 1035px;
+    height: 570px;
+}
+
+.content-left {
+    /* background-color: rgb(48, 48, 48); ybrat */
+    width: 540px;
+    height: 296px;
+    position: absolute;
+    top: 120px;
+}
+.content-left h1 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 5px;
+    margin: 0 0 50px 0;
+}
+.content-left p {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight:normal;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+.content-left .afisha {
+    background: rgba(209, 169, 84, 1);
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    border: 0;
+    cursor: pointer;
+}
+
+.content-right {
+    /* background-color: rgb(48, 48, 48); ybrat */
+    width: 370px;
+    height: 570px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.slider {
+    position: relative;
+    height: 510px;
+    width: 370px;
+}
+.slider img {
+    position: absolute;
+}
+.slider img:first-child {
+    z-index: 10;
+}
+.slider img:last-child {
+    bottom: 0;
+    right: 0;
+}
+.fon {
+    background-color: rgba(208, 169, 84, 0.85);
+    width: 350px;
+    height: 490px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.next-pred {
+    height: 60px;
+    width: 100%;
+}
+.next-pred div button {
+    position: absolute;
+    display: block;
+    width: 108px;
+    height: 25px;
+    border: 0;
+    background: transparent;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight:700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.next {
+    right: 0;
+}
+.next span {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.button-arrow-right {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    display: block;
+    justify-content: center;
+}
+.pred {
+    left: 0;
+}
+.pred span {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.button-arrow-left {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+    justify-content: center;
+    transform: rotate(180deg);
+}
+
+
+.main {
+    position: relative;
+    background-color: #333333;
+    width: 1920px;
+    height: 2800px;
+}
+.main * {
+    position: relative;
+}
+
+.content-main {
+    width: 1110px;
+    height: 457px;
+    position: absolute;
+    top: 150px;
+    left: 405px;
+    background-color: rgb(48, 48, 48); /* ybrat */
+}
+.o_teatre h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.o_teatre h2::first-letter {
+    color: #D1A954;;
+}
+
+.main-text {
+    width: 445px;
+    height: 273px;
+    top: 100px;
+    margin: 0;
+}
+.main-text p {
+    color: white;
+    position: relative;
+}
+.main-text p:first-child {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.main-text p:last-child {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+
+.main-numbers {
+    height: 292px;
+    width: 255px;
+    top: 100px;
+    position: relative;
+    left: 30px;
+    
+}

@@ -1,0 +1,49 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: grey;
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.img {
+    z-index: -1;
+    
+}
+
+.content {
+    position: absolute;
+    z-index: 1;
+}
+
+.content .header {
+    position: absolute;
+    left: 0;
+
+}
+
+.nav {
+    
+}
+
+
+.content .main {
+    position: absolute;
+    background-color: white;
+    border-top-left-radius: 50px; border-top-right-radius: 50px;
+    bottom: 0;
+    left: 0;
+    width: 1440px;
+    height: 700px;
+}

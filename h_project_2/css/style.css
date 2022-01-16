@@ -1,0 +1,35 @@
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: grey;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.head {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.logo {
+    font-size:x-large;
+}
+
+.nav {
+    right: 10px;
+    
+}
